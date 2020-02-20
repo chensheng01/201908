@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hahs</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .lunbotu ul {
+            list-style: none;
+            position: absolute;
+            right: 20px;
+            bottom: 20px;
+            width: 160px;
+            height: 30px;
+            /* border: 1px solid #000; */
+
+        }
+
+        .lunbotu ul li {
+            float: left;
+            width: 30px;
+            height: 30px;
+            background-color: hsl(39, 100%, 50%, 0.8);
+            margin-right: 10px;
+            border-radius: 50%;
+            cursor: pointer;
+
+        }
+
+        .lunbotu ul li.liang {
+            background-color: red;
+        }
+
+        .lunbotu {
+            width: 679px;
+            height: 453px;
+            border: 1px solid #000;
+            margin: 50px auto;
+            position: relative;
+
+        }
+
+        .lunbotu img {
+            width: 679px;
+            height: 453px;
+        }
+
+        .lunbotu .btn {
+            width: 50px;
+            height: 50px;
+            background-color: rgb(116, 98, 98, 0.4);
+            /* margin-top: 10px; */
+            position: absolute;
+            top: 50%;
+            /* left: 10px; */
+            margin-top: -25px;
+            border-radius: 50%;
+            line-height: 50px;
+            text-align: center;
+            font-size: 30px;
+            color: white;
+
+        }
+
+        .lunbotu .left-btn {
+            left: 10px;
+        }
+
+        .lunbotu .right-btn {
+            right: 10px;
+        }
+
+        .lunbotu h3 {
+            position: absolute;
+            left: 50px;
+            bottom: 20px;
+            color: white;
+            font-size: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="lunbotu">
+        <img src="girl.jpg" alt="">
+        <div class="btn left-btn"> &lt</div>
+        <div class="btn right-btn">&gt</div>
+        <ul>
+            <li></li>
+            <li class='liang'></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <h3>文字文字文字</h3>
+
+    </div>
+</body>
+
+</html>
